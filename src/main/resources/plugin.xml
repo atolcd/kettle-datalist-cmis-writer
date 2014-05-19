@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+
+   id="CMISDLWPlugin"
+   iconfile="icon.png"
+   description="CMIS DataList Writer Plugin"
+   tooltip="CMIS Read/Write Steps"
+   category="Alfresco CMIS"
+   classname="com.atolcd.pdi.plugin.cmis.dataListWriter.CMISDLWStepMeta">
+
+    <libraries>
+      <library name="Kettle-cmis-datalist-writer.jar"/>
+      <library name="lib/chemistry-opencmis-client-api-0.11.0.jar"/>
+      <library name="lib/chemistry-opencmis-client-bindings-0.11.0.jar"/>
+      <library name="lib/chemistry-opencmis-client-impl-0.11.0.jar"/>
+      <library name="lib/chemistry-opencmis-commons-api-0.11.0.jar"/>
+      <library name="lib/chemistry-opencmis-commons-impl-0.11.0.jar"/>
+      <library name="lib/slf4j-simple-1.7.7.jar"/>
+      <library name="lib/slf4j-api-2.0.99.jar"/>
+      <library name="lib/jdom-1.1.2.jar"/>
+    </libraries>
+
+</plugin>
